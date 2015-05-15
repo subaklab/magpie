@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+            
+        <Button
+            android:id="@+id/desc_pitch_trim"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_pitch_trim"
+            android:alpha="0.5" />
+        
+    <TextView
+        android:id="@+id/pitch"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/pitch"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+                
+     <Button
+            android:id="@+id/inc_pitch_trim"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/inc_pitch_trim"            
+            android:alpha="0.5" />
+        
+                
+     <Button
+            android:id="@+id/desc_roll_trim"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/desc_roll_trim"            
+            android:alpha="0.5" />
+  
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/roll"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+              
+    <Button
+            android:id="@+id/inc_roll_trim"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:text="@string/inc_roll_trim"            
+            android:alpha="0.5" />
+    
+        
+    <TextView
+        android:id="@+id/linkQuality"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/linkQuality"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/thrust"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/thrust"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/yaw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/yaw"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+        <TextView
+        android:id="@+id/mode"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/mode"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+                       
+     <Button
+            android:id="@+id/toggle_mode"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:text="@string/toggle_mode"            
+            android:alpha="0.5" />
+        
+
+</merge>
