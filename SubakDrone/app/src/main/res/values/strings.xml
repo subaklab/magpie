@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SubakDrone</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="pitch">Pitch: %1$s</string>
+    <string name="roll">Roll: %1$s</string>
+    <string name="thrust">Thrust: %1$s</string>
+    <string name="yaw">Yaw: %1$s</string>
+    <string name="mode">Mode:  $s</string>
+    <string name="linkQuality">Link: %1$s</string>
+    <string name="menu_connect">Camera Connect</string>
+    <string name="menu_disconnect">Camera Disconnect</string>
+    <string name="desc_pitch_trim">-</string>
+    <string name="inc_pitch_trim">+</string>
+    <string name="desc_roll_trim">-</string>
+    <string name="inc_roll_trim">+</string>
+    <string name="toggle_mode">x</string>
+</resources>
